@@ -1,11 +1,23 @@
-## Problem Statement
+## Abstract
 
 This study aimed to construct a supervised learning model for classifying medical subjects into two groups based on their Parkinson's disease status. The dataset comprises a variety of audio parameters extracted from voice recordings of patients. The dataset is skewed, as 23 of the total 31 patients in the recording are positive. As a result, we used both accuracy and the F1 score as measures. We've employed dimensionality reduction and feature selection techniques and then trained multiple models on them.
 
-## Machine Learning Pipeline
-<p align="center">
-   <img width="562" alt="image22" src="https://github.com/ihdavjar/CSL2050_Minor_Project/assets/95899338/62bc558e-7ecd-4fc7-a6c6-d929b0834f0a">
-</p>
+## Introduction
+In this investigation, we attempted to categorise patients as either healthy or sick using a variety of supervised learning algorithms. Initially, we employed linear discriminant analysis (LDA) to determine whether or not the data were linearly separable. Then, we utilised principal component analysis (PCA) with naive Bayes classification to determine the efficacy of this method.
+
+Then, we attempted the sequential forward feature selection algorithm with the Naive Bayes classifier as the foundational model. 
+Then, we attempted to identify the optimal feature using the sequential forward feature selection algorithm and the Decision Tree classifier as the base model. On the resulting datasets, we then evaluated the precision of various models.
+
+## The various models used in this project are
+Gaussian NB
+Decision Tree Classifier
+Bagging with the Decision Tree Classifier as the base ensemble
+AdaBoost with the Decision Tree Classifier as the base ensemble
+Xgboost Classifier
+Neural Network 
+Support Vector Machine
+KNN Classifier
+
 
 ## Result and Discussion
 Current problem is a clustering problem. Several clustering algorithms were imployed on PCA data and the original data and their outputs were compared. It was evident that PCA doesn't bring any notable changes to the clustering problem.
