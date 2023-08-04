@@ -1,4 +1,4 @@
-![image20](https://github.com/ihdavjar/Prml_Major_Project/assets/95899338/2cf7642c-e191-4c2a-9d4e-340fe6a5921a)## Abstract
+## Abstract
 
 This study aimed to construct a supervised learning model for classifying medical subjects into two groups based on their Parkinson's disease status. The dataset comprises a variety of audio parameters extracted from voice recordings of patients. The dataset is skewed, as 23 of the total 31 patients in the recording are positive. As a result, we used both accuracy and the F1 score as measures. We've employed dimensionality reduction and feature selection techniques and then trained multiple models on them.
 
