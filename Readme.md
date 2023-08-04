@@ -20,8 +20,8 @@ Then, we attempted to identify the optimal feature using the sequential forward 
 
 
 ## Result and Discussion
-Current problem is a clustering problem. Several clustering algorithms were imployed on PCA data and the original data and their outputs were compared. It was evident that PCA doesn't bring any notable changes to the clustering problem.
+Out of all the models implemented in this project, KNN gives the best performance with standardised data, as both F1 score and accuracy are at their maximum in that case.
 
-&rarr; [Report.pdf](https://github.com/ihdavjar/CSL2050_Minor_Project/blob/b9b0829c6594c0f99f119708bcacf8a74df04473/Report.pdf) contains detailed explaination of this project along with various visualisation.
+&rarr; [Report.pdf](https://github.com/ihdavjar/Prml_Major_Project/blob/8c564acfebcda30ea10f917a2200b6ea2abb9997/Report.pdf) contains detailed explaination of this project along with various visualisation.
 
-&rarr; [minor_project.ipynb](https://github.com/ihdavjar/CSL2050_Minor_Project/blob/b9b0829c6594c0f99f119708bcacf8a74df04473/minor_project.ipynb) contains the implementation of the above discussed clustering.
+&rarr; [major_project.ipynb](https://github.com/ihdavjar/Prml_Major_Project/blob/8c564acfebcda30ea10f917a2200b6ea2abb9997/major_project.ipynb) contains the implementation of the above discussed clustering.
