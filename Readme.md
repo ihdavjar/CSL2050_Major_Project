@@ -9,14 +9,14 @@ Then, we attempted the sequential forward feature selection algorithm with the N
 Then, we attempted to identify the optimal feature using the sequential forward feature selection algorithm and the Decision Tree classifier as the base model. On the resulting datasets, we then evaluated the precision of various models.
 
 ## The various models used in this project are
-Gaussian NB
-Decision Tree Classifier
-Bagging with the Decision Tree Classifier as the base ensemble
-AdaBoost with the Decision Tree Classifier as the base ensemble
-Xgboost Classifier
-Neural Network 
-Support Vector Machine
-KNN Classifier
+* Gaussian NB
+* Decision Tree Classifier
+* Bagging with the Decision Tree Classifier as the base ensemble
+* AdaBoost with the Decision Tree Classifier as the base ensemble
+* Xgboost Classifier
+* Neural Network 
+* Support Vector Machine
+* KNN Classifier
 
 
 ## Result and Discussion
