@@ -16,7 +16,7 @@ Then, we attempted to identify the optimal feature using the sequential forward 
 * Xgboost Classifier
 * Neural Network 
 * Support Vector Machine
-* KNN Classifier
+* KNN Classifiers
 
 
 ## Result and Discussion
